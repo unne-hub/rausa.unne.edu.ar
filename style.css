@@ -1,0 +1,279 @@
+html {
+    background: white;
+}
+			/*WRAP*/
+.body {
+	margin:0 auto 0 auto; 
+	width:1024px;/* 900*/
+	font: 76% "Trebuchet MS","lucida sans", tahoma, sans-serif;
+}
+
+.bodyinterno {
+	margin:0 0 0 0;
+	width:700px;/*600*/
+	font: 76% "Trebuchet MS","lucida sans", tahoma, sans-serif;
+}
+
+body {
+	margin: 28px 28px 28px 28px; 
+	font: 76% "Trebuchet MS","lucida sans", tahoma, sans-serif;
+}
+			/*TOP BANNER*/
+#foto { 
+	margin:0; width:100%; 
+}
+
+#content {
+    margin-left: 139px;
+}
+			/*TOP NAVIGATION*/
+#navbar ul {
+    float:left;
+    width:100%;
+    padding:0;
+    margin:0 auto 0 auto;
+    width:1024px;
+    list-style-type:none;
+    font-size: 100%;
+    text-align: center;
+    background: #585858;/*#5b662d;*/
+    color: #000;
+}
+
+#navbar a {
+    float:left;
+    width:120px;
+    height:20px;
+    /*font-weight: bold;*/
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    background: #424242; /*#3D8C2F;#306F24;/*5b662d;*/
+    padding:0.6em 0.6em;
+    border-right:1px solid #fff;
+}
+#navbar a.revista {
+    width:100px;
+     background:#DF7401;
+}
+#navbar a:hover {
+    background:#585858;
+    color: #fff;
+}
+
+#navbar li {
+    display:inline;
+}
+			/*SIDEBAR*/
+#sidebar {
+    float: left;
+    width: 150px;
+    height: 640px;
+    background: #306F24; /*#A8C670;/*C5D8A4;*/
+    margin: 0;
+	padding-top: 0;
+	padding-right: 1em;
+	padding-bottom: 0;
+	padding-left: 1em;
+}
+			/*SIDE MENU*/
+#sidebar ul {
+    list-style: none;
+    margin: 0 2px 2px 0;
+    padding: 0;
+}
+
+#sidebar h4 {
+	margin-top: 14px; 
+	padding: 3px 0 3px 0;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background: transparent;
+	color: #266424;/*#385900;*/
+	border-bottom: 1px dashed #000;
+}
+
+#sidebar h4 a{
+    text-decoration: none;
+	padding: 5px 0 5px 0;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background: transparent;
+	color: #E9F0E9;/*#385900;*/
+	/*border-bottom: 1px solid #C0C0C0;*/
+}
+
+#sidebar h4 a:hover {
+	color: #000000;
+}
+
+#sidebar ul li { 
+    display: inline;
+    padding: 0;
+    margin:0 0;
+}
+#sidebar ul li a {
+    display: block;
+    color: #E9F0E9;/*#385900;*/
+    background: inherit;
+    text-decoration: none;
+    margin: 0;
+    padding: 2px 0 2px 0;
+    border-bottom: 1px solid #000;/*#C0C0C0;*/
+}
+/* para que cuando tiene sub items no salga la linea divisoria*/
+#sidebar ul li a.agrup {    
+    border-bottom: none !important;/*1px solid #000;/*#C0C0C0;*/
+}
+#sidebar ul li a:hover {
+    text-decoration: none;
+    background: inherit;
+    color: #000000;
+}
+
+			/*LINKS*/
+a:link, a:visited {
+    text-decoration : underline;
+    background : inherit;
+    color : #868749;
+}
+a:hover {
+    text-decoration : underline;
+    background : inherit;
+    color :  #A83022; /*C35617; */
+}
+
+a img {
+	color : white;
+	background: white;
+	border:none;
+}
+
+			/*TYPOGRAPHY*/
+		
+h1 {
+    margin: 0;
+    padding: 30px 0 5px 20px;
+    font-size: 175%;
+    letter-spacing: 3px;
+    color:#FFFFFF;
+}
+h2 {
+    font-size: 120%;
+    letter-spacing: 3px;
+    background: transparent;
+    color: #266424;/*385900;*/
+    border-bottom: 1px dashed #266424;/*385900;*/
+}
+h3 {
+	margin: 0;
+	padding: 5px 0 5px 0;
+	font-size: 160%;
+	letter-spacing: 3px;
+	background: inherit;
+	color:  #266424;/*385900;*/
+	margin-top: 0px;
+}
+h4 {
+	margin-top: 11px;
+	padding: 5px 0 5px 0;
+	font-size: 14px;
+	letter-spacing: 2px;
+	background: transparent;
+	color: #266424;/*385900;*/
+	margin-bottom: 0px;
+}
+
+ul{
+	line-height: 18px;
+	text-align: justify;
+}
+li{
+	padding: 5px 0 5px 0;
+	font-size: 12px;
+}
+
+ol li h4 {
+	margin-top: 12px;
+	padding: 5px 0 5px 0;
+	font-size: 14px;
+	letter-spacing: 2px;
+	background: transparent;
+	color: #266424;/*385900;*/
+}
+b{
+	color: #266424;/*385900;*/
+}
+li b{
+	font-size: 12px;
+}
+p{
+	margin: 1em 0 1em 0;
+	text-align: justify;
+	line-height: 20px;
+	font-size: 12px;
+}
+p b{
+	font-size: 12px;
+}
+.txtblanco{
+	font-size: 11px;
+	color: white;
+	letter-spacing: 1px;
+	font-family: "Trebuchet MS", "lucida sans", tahoma, sans-serif;
+	line-height: 10px;
+}
+
+/***** agregado ******/
+
+	/*SIDEBAR*/
+#rigthbar {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+    width: 130px;
+    height: 430px;
+    background: #D1F1AD;/*E7F7B7;/*#DAF291;/*#EAEADA;*/
+    margin: 0;
+    padding: 0px 15px 15px 15px;
+}
+			/*SIDE MENU*/
+#rigthbar ul {
+    list-style: none;
+    margin: 0 2px 2px 0;
+    padding: 0;
+}
+
+#rigthbar h4 {
+	margin-top: 15px; 
+	padding: 3px 0 3px 0;
+	font-size: 12px;
+	letter-spacing: 2px;
+	background: transparent;
+	color: #266424;/*#385900;*/
+	border-bottom: 1px dashed #000;
+}
+
+#rigthbar h4 a:hover {
+	color: #9F0000;
+}
+
+#rigthbar ul li {
+    display: inline;
+    padding: 0;
+    margin:0 7px;
+}
+#rigthbar ul li a {
+    display: block;
+    color: inherit;/*#385900;*/
+    background: inherit;
+  /*  text-decoration: none;*/
+    margin: 0;
+    padding: 2px 0 2px 0;
+    /*border-bottom: 1px solid #000;/*#C0C0C0;*/
+}
+#rigthbar ul li a:hover {
+    text-decoration: none;
+    background: inherit;
+    color: #9F0000;
+}
