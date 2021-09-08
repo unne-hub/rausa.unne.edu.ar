@@ -24,15 +24,15 @@ body {
 }
 
 #content {
-    margin-left: 139px;
+    margin-left: 10px;
 }
 			/*TOP NAVIGATION*/
 #navbar ul {
-    float:left;
+    float:center;
     width:100%;
     padding:0;
     margin:0 auto 0 auto;
-    width:1024px;
+    width:100%;
     list-style-type:none;
     font-size: 100%;
     text-align: center;
@@ -41,14 +41,14 @@ body {
 }
 
 #navbar a {
-    float:left;
-    width:120px;
-    height:20px;
+    float:center;
+    width:150px;
+    height:40px;
     /*font-weight: bold;*/
     letter-spacing: 1px;
     text-decoration: none;
     color: #fff;
-    background: #424242; /*#3D8C2F;#306F24;/*5b662d;*/
+    background: transparent; /*#3D8C2F;#306F24;/*5b662d;*/
     padding:0.6em 0.6em;
     border-right:1px solid #fff;
 }
